@@ -1,0 +1,115 @@
+.bloc_page
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+header img
+{
+    height: 70px;
+}
+
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+/* Bannière Debut */
+.banniere
+{
+    background-image: url('Images/backgroung_image.jpg');
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.banniere
+{
+    color: white;
+}
+.banniere img
+{
+    height: 70px;
+}
+/* Bannière Fin*/
+
+
+
+
+
+
+/* Princicpale Debut */
+
+.principale 
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+
+
+/* Princicpale Fin */
+
+
+
+
+
+
+footer
+{
+    display: flex;
+    background-color: #5b359d;
+}
+
+.logos-reseaux
+{
+    /* display: flex; */
+    
+}
+
+.fa-twitter, .fa-facebook-f, .fa-instagram
+{
+    color: yellow;
+}
+
+.titrefooter p, .acces li, .apropos li, .coordonnees p
+{
+    color: white;
+}
+
+.info
+{
+    display: flex;
+}
+
+.apropoos, .access, .coordonnees
+{
+    justify-content: center;
+    align-items: center;
+}
