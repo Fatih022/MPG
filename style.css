@@ -65,13 +65,48 @@ nav a
 {
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+
+}
+
+.titre, .services, .presentation, footer
+{
+    margin-top: 30px;
+
 }
 
 
 
+.services
+{
+    display: flex;
+    justify-content: space-around;
+}
 
+.card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    /* border: 2px solid red; */
+}
 
+.card img
+{
+    width: 70px;
+    height: 70px;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.card h2, p
+{
+    text-align: center;
+    /* justify-content: center; */
+    align-items: flex-start;
+
+}
 
 
 /* Princicpale Fin */
@@ -84,12 +119,20 @@ nav a
 footer
 {
     display: flex;
+    flex-direction: column;
     background-color: #5b359d;
+    color: white;
+}
+
+footer h2
+{
+    color: grey;
 }
 
 .logos-reseaux
 {
-    /* display: flex; */
+    display: flex;
+    justify-content: space-evenly;
     
 }
 
@@ -98,18 +141,26 @@ footer
     color: yellow;
 }
 
-.titrefooter p, .acces li, .apropos li, .coordonnees p
-{
-    color: white;
-}
 
 .info
 {
     display: flex;
+    justify-content: space-evenly;
 }
 
-.apropoos, .access, .coordonnees
+.info h2
+{
+    text-align: center;
+}
+
+.apropos, .acces, .coordonnees
 {
     justify-content: center;
     align-items: center;
+}
+
+.apropos ul, .acces ul, .coordonnees ul
+{
+    list-style-type: none;
+
 }
